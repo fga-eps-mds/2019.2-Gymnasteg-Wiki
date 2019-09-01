@@ -1,4 +1,4 @@
-## 1. Sprint 0
+## 1. Sprint 1
 
 
 **Data de início:** 13 de agosto.

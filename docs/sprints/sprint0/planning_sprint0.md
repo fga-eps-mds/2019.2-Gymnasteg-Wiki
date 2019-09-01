@@ -1,4 +1,4 @@
-## 1. Sprint 0
+## 1. Sprint 1
 
 
 **Data de início:** 13 de agosto.
@@ -16,7 +16,7 @@
 |Alan Marques|Desenvolvimento|
 |Fellipe Araújo|Desenvolvimento|
 |Felipe Agustini|Desenvolvimento|
-|Mateus Assunção|Desenvolvimento|
+|Luiz Pettengill|Desenvolvimento|
 |Fabrício Santos|Desenvolvimento|
 
 ## Pareamento

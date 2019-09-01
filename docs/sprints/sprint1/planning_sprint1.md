@@ -16,7 +16,7 @@
 |Alan Marques|Desenvolvimento|
 |Fellipe Araújo|Desenvolvimento|
 |Felipe Agustini|Desenvolvimento|
-|Mateus Assunção|Desenvolvimento|
+|Luiz Pettengill|Desenvolvimento|
 |Fabrício Santos|Desenvolvimento|
 
 ## Pareamento
