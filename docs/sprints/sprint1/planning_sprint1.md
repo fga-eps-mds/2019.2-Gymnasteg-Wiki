@@ -1,9 +1,9 @@
 ## 1. Sprint 1
 
 
-**Data de início:** 13 de agosto.
+**Data de início:** 18 de agosto.
 
-**Data de término:**  17 de agosto.
+**Data de término:** 24 de agosto.
 
 ## Papéis
 
@@ -23,6 +23,5 @@
 Não se aplica.
 
 ## Planejamento
-<ul>
-<li>Formação da equipe</li>
-</ul>
+- [Estudo sobre micro serviços ](https://github.com/fga-eps-mds/2019.2-Grupo8/issues/6)
+- [Dojo de git](https://github.com/fga-eps-mds/2019.2-Grupo8/issues/2)

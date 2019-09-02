@@ -1,9 +1,9 @@
 ## 1. Sprint 1
 
 
-**Data de início:** 13 de agosto.
+**Data de início:** 18 de agosto.
 
-**Data de término:**  17 de agosto.
+**Data de término:**  24 de agosto.
 
 ### Reunião
 Não se aplica.
@@ -35,8 +35,8 @@ Não se aplica.
 ### Métricas:
 Não se aplica.
 
-### Comparação Entre Quadros de Conhecimento:
-Não se aplica.
+### Quadro de Conhecimento:
+[![Quadro de conhecimento sprint1](../../assets/quadro_conhecimento/quadro_conhecimento_sprint1.png)](../../assets/quadro_conhecimento/quadro_conhecimento_sprint1.png)
 
 ### Análise do Scrum Master:
-<p>Formação da equipe de EPS e MDS. Tema ainda não definido.</p>  
+<p>A equipe mostrou-se bastante madura em relação ao git. Tema não decidido. </p>  
