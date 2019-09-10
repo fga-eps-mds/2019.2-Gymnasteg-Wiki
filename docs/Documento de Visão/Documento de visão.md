@@ -5,6 +5,7 @@
 |09/09/2019|1.1|Adição das Restrições e Perfis de Usuário|Matheus Felizola e Fellipe Araújo
 |09/09/2019|1.2|Correção da numeração dos tópicos de Tecnologias, adição das Funcionalidades do Produto e Perfil das partes interessadas.|Matheus Felizola, Fellipe Araújo, e Luiz Pettengill
 |09/09/2019|1.3|Adição do posicionamento do produto.|Luiz Pettengill, Matheus Felizola e Fellipe Araújo
+|09/09/2019|1.4|Adição das tecnologias de dev-ops e das faixas de qualidade.|Luiz Pettengill, Matheus Felizola, Fellipe Araújo
 # 1. Introdução
 ## 1.1. Propósito
 Este documento apresenta o detalhamento e as justificativas referentes ao desenvolvimento do projeto Gymnasteg, além de deixar explícito o contexto em que este software atuará.
@@ -74,7 +75,7 @@ Para desenvolver o front-end da aplicação, será utilizado **ReactJS**.
 Para desenvolver o back-end da aplicação, será utilizado **NodeJS** para a construção da API e **PostgreSQL** como banco de dados.
 
 ### 3.3.3 Dev-ops
-
+Com relação ao dev-ops, será utilizado **Docker** para a normalização dos ambientes de desenvolvimento, **TravisCI** para integração contínua e **GitHub** com a extensão **ZenHub** para versionamento de código e rastreabilidade do andamento do projeto.
 
 ## 3.4. Funcionalidades do produto
 - Administradores podem cadastrar, editar e deletar bancas de avaliação, árbitros e participantes.
@@ -82,7 +83,8 @@ Para desenvolver o back-end da aplicação, será utilizado **NodeJS** para a co
 - Visualizar Ranking dos Participantes.
 - Nomear a competição.
 
-# 4. Qualidade
+# 4. Faixas de qualidade
+Atualizar o ranking dos ginastas ao menos a cada 30 segundos, assegurar que se houver problema de conexão que afete no envio dos votos dos árbitros, o árbitro precisa ficar ciente que o voto não foi enviado, e que o voto será reenviado quando a conexão for reestabelecida. O servidor deve ser tolerante a falhas para evitar que o mesmo caia durante a competição. 
 
 # 5. Visão geral do produto
 
