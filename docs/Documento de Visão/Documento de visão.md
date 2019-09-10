@@ -2,6 +2,7 @@
 |Data|Versão|Descrição|Autor|
 |--|--|--|--|
 |07/09/2019|1.0|Criação da estrutura base do documento de visão|Fabrício Monteiro
+|09/09/2019|1.1|Adição das Restrições e Perfis de Usuário|Matheus Felizola e Fellipe Araújo
 
 # 1. Introdução
 ## 1.1. Propósito
@@ -72,13 +73,18 @@ Para desenvolver o back-end da aplicação, será utilizado **NodeJS** para a co
 ## 5.2. Perfis do usuário
 O Gymnasteg servirá para dois tipos de usuário durante a ocorrência da competição, os quais estão descritos na tabela abaixo:
  
-|Tipo|Representa|Papel|
-|--|--|--|
-|Administrador|descrever...|
-|Juiz|descrever...|
-|Atleta|descrever...|
+|Representante|Descrição|Responsabilidades|Critérios de Sucesso|Envolvimento|Comentários ou Problemas|
+|--|--|--|--|--|--|
+|Administrador|Organizadores de competições de ginástica.|Organizar as bancas de árbitros para avaliação dos competidores, e cadastrar os árbitros e participantes.|Agilidade na execução das tarefas com a menor quantidade possível de erros.|Alto.|Ter muitos árbitros e participantes para cadastrar.|
+|Árbitro|Árbitros de competições de ginástica.|Avaliar competidores com base em sua execução e/ou critérios subjetivos.|Conseguir avaliar um ginasta e comunicar a nota pro computador central.|Médio.|Conseguir as credenciais de acesso. Árbitros ou competidores faltantes. Queda na conexão com a internet.|
+|Atleta|Participantes de competições de ginástica.|Participar da competição.|Estar presente na competição.|Mínimo.|Administrador esquecer de cadastrá-lo.|
 
 # 6. Restrições
+ - Gymnasteg é um SPA(Single Page Application) desenvolvido para a plataforma **Web** utilizando **ReactJS**.
+ - O sistema **não funcionará** quando o Javascript estiver desabilitado no navegador.
+ - O sistema requer uma **conexão ativa com a internet**.
+ - A interface de votação deve funcionar em resoluções de tela de **320x480 pixels ou superior**.
+ - A interface do usuário administrador deve funcionar em resoluções de tela de **800x600 ou superior**.
 
 # 7. Referências
 - IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html. Acesso em 05/09/2019.
