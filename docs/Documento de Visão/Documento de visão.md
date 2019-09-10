@@ -3,6 +3,7 @@
 |--|--|--|--|
 |07/09/2019|1.0|Criação da estrutura base do documento de visão|Fabrício Monteiro
 |09/09/2019|1.1|Adição das Restrições e Perfis de Usuário|Matheus Felizola e Fellipe Araújo
+|09/09/2019|1.2|Correção da numeração dos tópicos de Tecnologias, adição das Funcionalidades do Produto e Perfil das partes interessadas.|Matheus Felizola, Fellipe Araújo, e Luiz Pettengill
 
 # 1. Introdução
 ## 1.1. Propósito
@@ -58,17 +59,25 @@ Compreendendo a falta de centralização das avaliações de uma competição, a
 ### 3.3.1 Front-end
 Para desenvolver o front-end da aplicação, será utilizado **ReactJS**.
 
-### 3.3.1 Back-end
+### 3.3.2 Back-end
 Para desenvolver o back-end da aplicação, será utilizado **NodeJS** para a construção da API e **PostgreSQL** como banco de dados.
-### 3.3.1 Dev-ops
+### 3.3.3 Dev-ops
+
 
 ## 3.4. Funcionalidades do produto
+- Administradores podem cadastrar, editar e deletar bancas de avaliação, árbitros e participantes.
+- Árbitros podem avaliar participantes quanto à execução dos movimentos e características subjetivas.
+- Visualizar Ranking dos Participantes.
+- Nomear a competição.
 
 # 4. Qualidade
 
 # 5. Visão geral do produto
 
 ## 5.1. Perfis das partes interessadas
+- **Cliente:** Roberto de Souza Baptista, Professor de Engenharia Eletrônica da FGA
+- **Usuários:** Organizadores e árbitros de competições de ginástica.
+- **Equipe:** É composta por graduandos em Engenharia de Software pela Universidade de Brasília, no Campus Gama, discentes das disciplinas de Engenharia de Produto de Software e Métodos de Desenvolvimento de Software.
 
 ## 5.2. Perfis do usuário
 O Gymnasteg servirá para dois tipos de usuário durante a ocorrência da competição, os quais estão descritos na tabela abaixo:
