@@ -6,6 +6,7 @@
 |09/09/2019|1.2|Correção da numeração dos tópicos de Tecnologias, adição das Funcionalidades do Produto e Perfil das partes interessadas.|Matheus Felizola, Fellipe Araújo, e Luiz Pettengill
 |09/09/2019|1.3|Adição do posicionamento do produto.|Luiz Pettengill, Matheus Felizola e Fellipe Araújo
 |09/09/2019|1.4|Adição das tecnologias de dev-ops e das faixas de qualidade.|Luiz Pettengill, Matheus Felizola, Fellipe Araújo
+|09/09/2019|1.4.1|Correção da formatação da tabela do tópico 2.2|Matheus Felizola
 # 1. Introdução
 ## 1.1. Propósito
 Este documento apresenta o detalhamento e as justificativas referentes ao desenvolvimento do projeto Gymnasteg, além de deixar explícito o contexto em que este software atuará.
@@ -35,6 +36,7 @@ Gymnasteg, é um sistema para avaliações da performance de ginastas em suas co
 
 ## 2.2. Descrição do problema
 Existe uma grande dificuldade em manter as informações das avaliações feitas em competições de ginástica centralizadas.
+
 |Problema|Quem é afetado|Impactos|Solução|
 |--|--|--|--|
 |Dificuldade na centralização das avaliações em uma competição de ginástica.|Administradores, juízes e atletas.|Por ser um processo manual, a burocracia nos momentos das avaliações é a maior dor dos envolvidos no processo.|O Gymnasteg tratará e centralizará todas as notas de cada modalidade da competição, provendo uma análise mais rápida e eficiente das avaliações.|
