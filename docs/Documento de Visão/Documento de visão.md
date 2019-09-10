@@ -4,7 +4,7 @@
 |07/09/2019|1.0|Criação da estrutura base do documento de visão|Fabrício Monteiro
 |09/09/2019|1.1|Adição das Restrições e Perfis de Usuário|Matheus Felizola e Fellipe Araújo
 |09/09/2019|1.2|Correção da numeração dos tópicos de Tecnologias, adição das Funcionalidades do Produto e Perfil das partes interessadas.|Matheus Felizola, Fellipe Araújo, e Luiz Pettengill
-
+|09/09/2019|1.3|Adição do posicionamento do produto.|Luiz Pettengill, Matheus Felizola e Fellipe Araújo
 # 1. Introdução
 ## 1.1. Propósito
 Este documento apresenta o detalhamento e as justificativas referentes ao desenvolvimento do projeto Gymnasteg, além de deixar explícito o contexto em que este software atuará.
@@ -39,7 +39,18 @@ Existe uma grande dificuldade em manter as informações das avaliações feitas
 |Dificuldade na centralização das avaliações em uma competição de ginástica.|Administradores, juízes e atletas.|Por ser um processo manual, a burocracia nos momentos das avaliações é a maior dor dos envolvidos no processo.|O Gymnasteg tratará e centralizará todas as notas de cada modalidade da competição, provendo uma análise mais rápida e eficiente das avaliações.|
 
 ## 2.3. Posicionamento do produto
-Resumo geral detalhado sobre a posição que o produto pretende assumir no mercado.
+Gymnasteg é voltado para organizadores e árbitros de competições de ginástica, centralizando e automatizando a contabilidade de votos e ranqueamento dos ginástas.
+
+| |Instrução de posição do produto|
+|--|--|
+|Para|Organizações envolvidas com competições de ginástica.|
+|Que|Tenham necessidade de automatizar o ranqueamento de ginastas.|
+|Gymnasteg é|Um sistema de avaliação e ranqueamento de participates de competições de ginásticas.|
+|Que|automatiza o ranqueamento dos ginastas de acordo com a votação dos árbitros de forma confiável.|
+|Diferente do|Sistema utilizado pelo cliente anteriormente.|
+|Nosso produto|Atua em competições de ginástica tanto infantis quanto para adultos.|
+
+
 
 # 3. Visão geral do produto
 ## 3.1. Escopo do produto
@@ -61,6 +72,7 @@ Para desenvolver o front-end da aplicação, será utilizado **ReactJS**.
 
 ### 3.3.2 Back-end
 Para desenvolver o back-end da aplicação, será utilizado **NodeJS** para a construção da API e **PostgreSQL** como banco de dados.
+
 ### 3.3.3 Dev-ops
 
 
