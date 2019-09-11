@@ -52,10 +52,10 @@ Não de aplica
 
 
 ### Burndown:
-[![Burndown](../../assets/burndown/burndown_sprint3.png)]((../../assets/burndown/burndown_sprint3.png)
+![Burndown](../../assets/burndown/burndown_sprint3.png)
 
 ### Velocity:
-[![Velocity](../../assets/velocity/velocity_sprint3.png)]((../../assets/velocity/velocity_sprint3.png)
+![Velocity](../../assets/velocity/velocity_sprint3.png)
 
 ### Métricas:
 Não se aplica.
