@@ -136,11 +136,7 @@ O custo do equipamento do time foi calculado por uma pesquisa dos preços dos mo
 
 # 12. Referências
 
-DEVMEDIA. **Devmedia Plataforma para Programadores**. O que o Coding Dojo. Disponível em: <https://www.devmedia.com.br/o-que-e-o-coding-dojo/30517>. Acessado em: 10 Set. de 2019.
+
 
 ROBSON CAMARGO. **Robson Camargo Projetos e Negócios**.Termo de abertura de projeto: saiba tudo sobre ele. Disponível em: <https://robsoncamargo.com.br/blog/Termo-de-abertura-de-projeto-saiba-tudo-sobre-ele>. Acesso em: 10 set. de 2019.
 
-
-GLASSDOOR. **Love Mondays**. Disponível em: <https://www.lovemondays.com.br/>. Acessado em: 10 Set. de 2019.
-
-SOUZA, Lucas; CARVALHO, Taynara; SOUZA, Stéfane, VIEIRA, Mateus. CarDefense - **Termo de Abertura de Projeto (TAP)**. Disponível em: <https://fga-eps-mds.github.io/2018.2-CarDefense/docs/tap.html>. Acessado em: 10 Set.	 de 2019.
