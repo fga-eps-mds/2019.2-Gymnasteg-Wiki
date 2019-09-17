@@ -1,3 +1,9 @@
+---
+id: gerencimentoRiscos
+title: Plano de Gerencimento de Riscos
+sidebar_label: Plano de Gerenciamneto de Riscos
+---
+
 | Data | Versão | Descrição | Autor |
 |:----:|:------:|:---------:|:-----:|
 | 13/09/2019 | 0.1 | Versão inicial | Igor Veludo |

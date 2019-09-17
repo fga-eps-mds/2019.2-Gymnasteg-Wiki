@@ -4,7 +4,7 @@ title: Result Sprint 0
 sidebar_label: Result Sprint 0
 ---
 
-## 1. Sprint 1
+## 1. Sprint 0
 
 **Data de início:** 13 de agosto.
 
