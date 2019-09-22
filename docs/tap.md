@@ -37,7 +37,7 @@ Gymnasteg automatiza o proceso de votação em um campeonato de gisnática, indo
 
 # 3. Justificativa
 
-A ginástica é um esporte esencialmente dinâmico e para que uma competição de ginástica tenha esse dinamismo que o esporte pede o uso da tecnologia se faz necessário. Diversas competições de alto nível já utilizam à bastante tempo processos automatizados, porém competições menores carecem dessa digitização utilizando o papel em grande parte do processo de votação. O Gymnasteg nasce com o intuito de automatizar uma parte do processo de votação, trazendo flexibilidade para os diversos tipos de competição, podendo ser usado desde pequenas competições até as de médio porte.
+A ginástica é um esporte essencialmente dinâmico e para que uma competição de ginástica tenha esse dinamismo que o esporte pede o uso da tecnologia se faz necessário. Diversas competições de alto nível já utilizam à bastante tempo processos automatizados, porém competições menores carecem dessa digitização utilizando o papel em grande parte do processo de votação. O Gymnasteg nasce com o intuito de automatizar uma parte do processo de votação, trazendo flexibilidade para os diversos tipos de competição, podendo ser usado desde pequenas competições até as de médio porte.
 
 # 4. Objetivo do Projeto
 
