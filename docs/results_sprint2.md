@@ -55,7 +55,7 @@ Não se aplica.
 
 ### Burndown:
 
-[![Burndown](../../assets/burndown/burndown_sprint1.png)]((../../assets/burndown/burndown_sprint1.png)
+[![Burndown](./assets/burndown/burndown_sprint1.png)]((../../assets/burndown/burndown_sprint1.png)
 
 ### Velocity:
 
@@ -67,7 +67,7 @@ Não se aplica.
 
 ### Quadro de Conhecimento:
 
-[![Quadro de conhecimento sprint1](../../assets/quadro_conhecimento/quadro_conhecimento_sprint2.png)](../../assets/quadro_conhecimento/quadro_conhecimento_sprint2.png)
+[![Quadro de conhecimento sprint1](./assets/quadro_conhecimento/quadro_conhecimento_sprint2.png)](../../assets/quadro_conhecimento/quadro_conhecimento_sprint2.png)
 
 ### Análise do Scrum Master:
 
