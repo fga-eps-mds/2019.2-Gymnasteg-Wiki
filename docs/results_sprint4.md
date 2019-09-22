@@ -1,15 +1,15 @@
 ---
-id: resultSprint3
-title: Result Sprint 3
-sidebar_label: Result Sprint 3
+id: resultSprint4
+title: Result Sprint 4
+sidebar_label: Result Sprint 4
 ---
 
-## 1. Sprint 3
+## 1. Sprint 4
 
 
-**Data de início:** 1 de setembro.
+**Data de início:** 8 de setembro.
 
-**Data de término:**  8 de setembro.
+**Data de término:**  14 de setembro.
 
 ### Reunião
 #### Data da reunião: 07/09
@@ -20,9 +20,9 @@ sidebar_label: Result Sprint 3
 |João Victor|:heavy_check_mark:|
 |Matheus Felizola|:heavy_check_mark:|
 |Igor Veludo|:heavy_check_mark:|
-|Alan Marques|<p><strong>JUSTIFICADO</strong></p>|
+|Alan Marques|:heavy_check_mark:|
 |Fellipe Araújo|:heavy_check_mark:|
-|Felipe Agustini|<p><strong>JUSTIFICADO</strong></p>|
+|Felipe Agustini|:heavy_check_mark:|
 |Luiz Pettengill|:heavy_check_mark:|
 |Fabrício Santos|:heavy_check_mark:|
 
@@ -38,30 +38,30 @@ sidebar_label: Result Sprint 3
 - [Aprender tecnologias](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/issues/14)
 
 ### Histórias não entregues:
-Não de aplica
+- [Criar plano de gerenciamento de custos](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/issues/38)
 ### Total de pontos planejados:
-- 22 pontos.
+- 23 pontos.
 
 ### Total de pontos entregues:
 - 22 pontos.
 
 ### Retrospectiva:
-- Pontos positivos: A equipe se mostrou bem participativa com relação ao projeto. A comunicação fluiu muito bem.
-- Pontos negativos: Viagem de um membro da equipe de MDS, o que ocasionou um problema em um dos pareamentos.
-- Pontos a melhorar: Nivelar conhecimentos das tecnologias entre os membros de MDS.
+- Pontos positivos: Resposta rápida aos erros de ferramentas. Alinhamento da equipe com o projeto.
+- Pontos negativos: Dívida técnica de um dos documentos.
+- Pontos a melhorar: Nivelar conhecimentos das tecnologias entre os membros de MDS. Melhora nos pareamentos.
 
 
 ### Burndown:
-![Burndown](./assets/burndown/burndown_sprint3.png)
+![Burndown](./assets/burndown/burndown_sprint4.png)
 
 ### Velocity:
-![Velocity](./assets/velocity/velocity_sprint3.png)
+![Velocity](./assets/velocity/velocity_sprint4.png)
 
 ### Métricas:
 Não se aplica.
 
 ### Quadro de Conhecimento:
-[![Quadro de conhecimento sprint1](./assets/quadro_conhecimento/quadro_conhecimento_sprint2.png)](../../assets/quadro_conhecimento/quadro_conhecimento_sprint2.png)
+[![Quadro de conhecimento sprint1](./assets/quadro_conhecimento/quadro_conhecimento_sprint4.png)](./assets/quadro_conhecimento/quadro_conhecimento_sprint4.png)
 
 ### Análise do Scrum Master:
-<p>Grupo mostrou-se bem comprometido com os pareamentos. Único problema que tivemos foi a viagem de um dos membros, que comprometeu um dos pareamentos. Com base nisso, o pareamento da sprint4 será de dois grupos de três membros, para que o grupo consiga alinhas os conhecimentos. </p>  
+<p>Devido a viagem de um dos membros de desenvolvimento, um dos pareamentos ficou prejudicado. Devido a isso o grupo de gerenciamento decidiu fazer um pareamento de 3 pessoas, afim de contornar o problema. Devido ao tempo, estão ocorrendo problemas nos paremanetos que estao sendo resolvido</p>  
