@@ -6,6 +6,7 @@
 |20/09/2019|0.3|Implementação do diagrama de casos de uso com suas especificações| Fellipe Araújo
 |20/09/2019|0.4|Adição das metas e restrições da arquitetura| Fellipe Araujo
 |20/09/2019|0.5|Implentação da representação de arquitetura | Alan Marques, Fellipe Araujo
+|22/09/2019|0.6| Adição das versões das tecnologias utilizadas| Alan Marques
 
 # 1. Introdução
 ## 1.1. Objetivo
@@ -28,25 +29,31 @@ O projeto foi modelado seguindo a arquitetura MVC (Model, View, Controller), no 
 * **Controller:** Camada da arquitetura responsável pela validação das requisições dos usuário de acordo com as regras de autenticação e autorização da aplicação.
 
 ## 2.2 Tecnologias
-### 2.2.1 React
+### 2.2.1 React (16.9.0)
 O React é uma biblioteca JavaScript para criação de interfaces interativas de usuário e que pode ser rederizada no servidor através do Node.js.
-### 2.2.2 Node.js
+
+### 2.2.2 Node.js (10.16.3)
 Node é um ambiente de execução de JavaScript server-side, projetado para desenvolvimento de aplicações escaláveis.
-### 2.2.3 Docker
+
+### 2.2.3 Docker (19.03.2)
 Docker é um tecnologia de conteinerização, onde busca resolver o problema de padronização de ambiente desenvolvimento de software e o isolamento de serviços.
-### 2.2.4 PostgreSQL
+
+### 2.2.4 PostgreSQL (11)
 PostgresSQL é SGBD relacional de alto desempenho de código livre.
-### 2.2.5 Travis CI
+
+### 2.2.5 Travis CI (latest)
 Travis CI é um serviço de integração contínua hospedado, usado para criar e testar projetos de software hospedados no GitHub.
-### 2.2.6 Slack
-Slack é uma aplicativo de comunicação de equipes.
-### 2.2.7 Git
+
+### 2.2.6 Git (2.17.1)
 Git é uma ferramenta de versionamento de arquivos de código livre.
-### 2.2.8 JEST
+
+### 2.2.7 JEST (24.9.0)
 Jest é um framework para realização de teste de JavaScript.
-### 2.2.9 ExpressJS
+
+### 2.2.8 ExpressJS (4.17.1)
 Express é um minimalista e flexivel framework Node.js que prover um conjunto de recursos para aplicações web.
-### 2.2.10 Sequelize
+
+### 2.2.9 Sequelize (5.18.4)
 Sequelize é ORM baseado em promises para Node.js, que suporta vários dialetos, entre eles PostgreSQL.
 
 # 3. Metas e Restrições da Arquitetura
