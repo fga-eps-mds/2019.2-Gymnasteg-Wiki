@@ -7,7 +7,7 @@
 |20/09/2019|0.4|Adição das metas e restrições da arquitetura| Fellipe Araujo
 |20/09/2019|0.5|Implentação da representação de arquitetura | Alan Marques, Fellipe Araujo
 |22/09/2019|0.6| Adição das versões das tecnologias utilizadas| Alan Marques
-
+|24/09/2019|0.7| Adição dos diagramas de classe e modelo do banco de dados | Alan Marques |
 # 1. Introdução
 ## 1.1. Objetivo
 O seguinte documento tem como objetivo aprensentar a arquitetura do projeto Gymnasteg, como também esclarecer os principais aspectos do software como um todo.
@@ -69,7 +69,7 @@ Sequelize é ORM baseado em promises para Node.js, que suporta vários dialetos,
 
 # 4. Visão de Casos de Uso
 ## 4.1 Diagrama de Casos de Uso
-![Diagrama](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/blob/feature/31-documento-de-arquitetura/docs/Documento%20de%20Arquitetura/caso%20de%20uso.png)
+![Diagrama](caso&#32;de&#32;uso.png)
 ## 4.2 Especificações dos Caso de Uso
 |Casos de uso|Ator|Descrição|
 |----|-------|-----|
@@ -89,6 +89,6 @@ Sequelize é ORM baseado em promises para Node.js, que suporta vários dialetos,
 |UC013-Votar|Juiz|Este caso de uso ocorrerá quando o Juiz entrar com a potuação correta do seu tipo de avaliação|
 
 # 5. Visão Lógica
-
+![DIAGRAMACLASSE](uml_gymnasteg.jpg)
 # 6 Visão de Dados
- 
+![DIAGRAMALOGICO](logico_gymnasteg.png)
