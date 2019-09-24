@@ -6,8 +6,9 @@
 |20/09/2019|0.3|Implementação do diagrama de casos de uso com suas especificações| Fellipe Araújo
 |20/09/2019|0.4|Adição das metas e restrições da arquitetura| Fellipe Araujo
 |20/09/2019|0.5|Implentação da representação de arquitetura | Alan Marques, Fellipe Araujo
-|22/09/2019|0.6| Adição das versões das tecnologias utilizadas| Alan Marques
-|24/09/2019|0.7| Adição dos diagramas de classe e modelo do banco de dados | Alan Marques |
+|22/09/2019|0.6|Adição das versões das tecnologias utilizadas| Alan Marques
+|24/09/2019|0.7|Adição dos diagramas de classe e modelo do banco de dados | Alan Marques
+|24/09/2019|0.8|Atualização da Representação Arquitetural| Fellipe Araujo
 # 1. Introdução
 ## 1.1. Objetivo
 O seguinte documento tem como objetivo aprensentar a arquitetura do projeto Gymnasteg, como também esclarecer os principais aspectos do software como um todo.
@@ -22,7 +23,7 @@ O documento está segmento em Representação de Arquitetura, Metas e Restriçõ
 * **SGBD:** Sistema de Gerenciamento de Banco de Dados.
 # 2. Representação de Arquitetura
 ## 2.1 Padrão Arquitetural
-O projeto foi modelado seguindo a arquitetura MVC (Model, View, Controller), no qual foi utilizado Node.js, em conjunto com framework ExpressJS e o ORM Sequelize, para criação da API onde vai ser processado as ações de leitura, escrita e alteração de informações no banco de dados PostgreSQL. Para a interação com o usuário foi usado a biblioteca React, onde realiza o papel de organizar e enviar informações da API.
+O projeto foi modelado seguindo a arquitetura MVC (Model, View, Controller), no qual foi utilizado o Node.js para o back-end, em conjunto com framework ExpressJS e o ORM Sequelize para criação da API, onde vai ser processado as ações de leitura, escrita e alteração de informações no banco de dados PostgreSQL. Para o front-end foi utilizado o React, uma biblioteca UI (User Interface), que realiza o papel de organizar e enviar informações da API. O React vai possibilitar a criação de telas de forma declarativa, ou seja, de como a tela vai reagir ao estado ou dados da aplicação. Essa biblioteca é baseada em componentes, ou seja, será criada partes da interface e ao final junta-se todos os componentes correspondentes formando, assim, uma interface maior e mais complexa. 
 
 * **Model:** Camada da arquitetura responsável pela lógica de négocio, manipulação e validação de dados na aplicação.
 * **View:** Camada da arquitetura responsável pela exibição da interface com o usuário.
