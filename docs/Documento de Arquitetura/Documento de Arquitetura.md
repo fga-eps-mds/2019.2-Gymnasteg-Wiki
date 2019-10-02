@@ -9,6 +9,7 @@
 |22/09/2019|0.6|Adição das versões das tecnologias utilizadas| Alan Marques
 |24/09/2019|0.7|Adição dos diagramas de classe e modelo do banco de dados | Alan Marques
 |24/09/2019|0.8|Atualização da Representação Arquitetural| Fellipe Araujo
+|01/10/2019|0.9|Adição do Diagrama de Relações| Fellipe Araujo
 # 1. Introdução
 ## 1.1. Objetivo
 O seguinte documento tem como objetivo aprensentar a arquitetura do projeto Gymnasteg, como também esclarecer os principais aspectos do software como um todo.
@@ -22,39 +23,42 @@ O documento está segmento em Representação de Arquitetura, Metas e Restriçõ
 * **ORM:** Object-relational-mapping.
 * **SGBD:** Sistema de Gerenciamento de Banco de Dados.
 # 2. Representação de Arquitetura
-## 2.1 Padrão Arquitetural
+## 2.1 Diagrama de Relações
+![DiagramaRelações](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/blob/feature/31-documento-de-arquitetura/docs/Documento%20de%20Arquitetura/Diagrama%20de%20Rela%C3%A7%C3%B5es.png)
+
+## 2.2 Padrão Arquitetural
 O projeto foi modelado seguindo a arquitetura MVC (Model, View, Controller), no qual foi utilizado o Node.js para o back-end, em conjunto com framework ExpressJS e o ORM Sequelize para criação da API, onde vai ser processado as ações de leitura, escrita e alteração de informações no banco de dados PostgreSQL. Para o front-end foi utilizado o React, uma biblioteca UI (User Interface), que realiza o papel de organizar e enviar informações da API. O React vai possibilitar a criação de telas de forma declarativa, ou seja, de como a tela vai reagir ao estado ou dados da aplicação. Essa biblioteca é baseada em componentes, ou seja, será criada partes da interface e ao final junta-se todos os componentes correspondentes formando, assim, uma interface maior e mais complexa. 
 
 * **Model:** Camada da arquitetura responsável pela lógica de négocio, manipulação e validação de dados na aplicação.
 * **View:** Camada da arquitetura responsável pela exibição da interface com o usuário.
 * **Controller:** Camada da arquitetura responsável pela validação das requisições dos usuário de acordo com as regras de autenticação e autorização da aplicação.
 
-## 2.2 Tecnologias
-### 2.2.1 React (16.9.0)
+## 2.3 Tecnologias
+### 2.3.1 React (16.9.0)
 O React é uma biblioteca JavaScript para criação de interfaces interativas de usuário e que pode ser rederizada no servidor através do Node.js.
 
-### 2.2.2 Node.js (10.16.3)
+### 2.3.2 Node.js (10.16.3)
 Node é um ambiente de execução de JavaScript server-side, projetado para desenvolvimento de aplicações escaláveis.
 
-### 2.2.3 Docker (19.03.2)
+### 2.3.3 Docker (19.03.2)
 Docker é um tecnologia de conteinerização, onde busca resolver o problema de padronização de ambiente desenvolvimento de software e o isolamento de serviços.
 
-### 2.2.4 PostgreSQL (11)
+### 2.3.4 PostgreSQL (11)
 PostgresSQL é SGBD relacional de alto desempenho de código livre.
 
-### 2.2.5 Travis CI (latest)
+### 2.3.5 Travis CI (latest)
 Travis CI é um serviço de integração contínua hospedado, usado para criar e testar projetos de software hospedados no GitHub.
 
-### 2.2.6 Git (2.17.1)
+### 2.3.6 Git (2.17.1)
 Git é uma ferramenta de versionamento de arquivos de código livre.
 
-### 2.2.7 JEST (24.9.0)
+### 2.3.7 JEST (24.9.0)
 Jest é um framework para realização de teste de JavaScript.
 
-### 2.2.8 ExpressJS (4.17.1)
+### 2.3.8 ExpressJS (4.17.1)
 Express é um minimalista e flexivel framework Node.js que prover um conjunto de recursos para aplicações web.
 
-### 2.2.9 Sequelize (5.18.4)
+### 2.3.9 Sequelize (5.18.4)
 Sequelize é ORM baseado em promises para Node.js, que suporta vários dialetos, entre eles PostgreSQL.
 
 # 3. Metas e Restrições da Arquitetura
@@ -91,5 +95,5 @@ Sequelize é ORM baseado em promises para Node.js, que suporta vários dialetos,
 
 # 5. Visão Lógica
 ![DIAGRAMACLASSE](uml_gymnasteg.jpg)
-# 6 Visão de Dados
+# 6. Visão de Dados
 ![DIAGRAMALOGICO](logico_gymnasteg.png)
