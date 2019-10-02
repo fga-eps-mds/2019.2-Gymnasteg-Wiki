@@ -10,6 +10,7 @@
 |24/09/2019|0.7|Adição dos diagramas de classe e modelo do banco de dados | Alan Marques
 |24/09/2019|0.8|Atualização da Representação Arquitetural| Fellipe Araujo
 |01/10/2019|0.9|Adição do Diagrama de Relações| Fellipe Araujo
+|01/10/2019|1.0|Atualização do Diagrama de Classes e Diagrama Lógico| Fellipe Araujo e Alan Marques
 # 1. Introdução
 ## 1.1. Objetivo
 O seguinte documento tem como objetivo aprensentar a arquitetura do projeto Gymnasteg, como também esclarecer os principais aspectos do software como um todo.
@@ -94,6 +95,6 @@ Sequelize é ORM baseado em promises para Node.js, que suporta vários dialetos,
 |UC013-Votar|Juiz|Este caso de uso ocorrerá quando o Juiz entrar com a potuação correta do seu tipo de avaliação|
 
 # 5. Visão Lógica
-![DIAGRAMACLASSE](uml_gymnasteg.jpg)
+![DIAGRAMACLASSE](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/blob/feature/31-documento-de-arquitetura/docs/Documento%20de%20Arquitetura/uml_gymnasteg.png)
 # 6. Visão de Dados
-![DIAGRAMALOGICO](logico_gymnasteg.png)
+![DIAGRAMALOGICO](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/blob/feature/31-documento-de-arquitetura/docs/Documento%20de%20Arquitetura/database_gymnasteg.png)
