@@ -1,3 +1,9 @@
+---
+id: docArquitetura
+title: Documento de Arquitetura
+sidebar_label: Documento de Arquitetura
+---
+
 ## Histórico de Alterações
 |Data|Versão|Descrição|Autor(es)|
 |:--:|:--:|:--:|:--:|
@@ -25,7 +31,7 @@ O documento está segmento em Representação de Arquitetura, Metas e Restriçõ
 * **SGBD:** Sistema de Gerenciamento de Banco de Dados.
 # 2. Representação de Arquitetura
 ## 2.1 Diagrama de Relações
-![DiagramaRelações](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/blob/feature/31-documento-de-arquitetura/docs/Documento%20de%20Arquitetura/Diagrama%20de%20Rela%C3%A7%C3%B5es.png)
+![RepresentaçãoDaArquitetura](assets/doc_arquitetura/representacao_da_arquitetura.png)
 
 ## 2.2 Padrão Arquitetural
 O projeto foi modelado seguindo a arquitetura MVC (Model, View, Controller), no qual foi utilizado o Node.js para o back-end, em conjunto com framework ExpressJS e o ORM Sequelize para criação da API, onde vai ser processado as ações de leitura, escrita e alteração de informações no banco de dados PostgreSQL. Para o front-end foi utilizado o React, uma biblioteca UI (User Interface), que realiza o papel de organizar e enviar informações da API. O React vai possibilitar a criação de telas de forma declarativa, ou seja, de como a tela vai reagir ao estado ou dados da aplicação. Essa biblioteca é baseada em componentes, ou seja, será criada partes da interface e ao final junta-se todos os componentes correspondentes formando, assim, uma interface maior e mais complexa. 
@@ -75,7 +81,7 @@ Sequelize é ORM baseado em promises para Node.js, que suporta vários dialetos,
 
 # 4. Visão de Casos de Uso
 ## 4.1 Diagrama de Casos de Uso
-![Diagrama](caso&#32;de&#32;uso.png)
+![Diagrama](assets/doc_arquitetura/caso_de_uso.png)
 ## 4.2 Especificações dos Caso de Uso
 |Casos de uso|Ator|Descrição|
 |----|-------|-----|
@@ -95,6 +101,6 @@ Sequelize é ORM baseado em promises para Node.js, que suporta vários dialetos,
 |UC013-Votar|Juiz|Este caso de uso ocorrerá quando o Juiz entrar com a potuação correta do seu tipo de avaliação|
 
 # 5. Visão Lógica
-![DIAGRAMACLASSE](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/blob/feature/31-documento-de-arquitetura/docs/Documento%20de%20Arquitetura/uml_gymnasteg.png)
+![DIAGRAMACLASSE](assets/doc_arquitetura/uml_gymnasteg.png)
 # 6. Visão de Dados
-![DIAGRAMALOGICO](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/blob/feature/31-documento-de-arquitetura/docs/Documento%20de%20Arquitetura/database_gymnasteg.png)
+![DIAGRAMALOGICO](assets/doc_arquitetura/database_gymnasteg.png)
