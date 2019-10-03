@@ -18,7 +18,7 @@ const users = [
     infoLink: 'https://www.facebook.com',
     pinned: true
   }
-]
+];
 
 const siteConfig = {
   title: 'Gymnasteg', // Title for your website.
@@ -38,7 +38,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: 'planningSprint0', label: 'Sprints' },
+    { doc: 'docVisao', label: 'Docs' },
     {
       href: 'hhttps://github.com/fga-eps-mds/2019.2-Grupo8',
       external: true,
@@ -50,13 +50,13 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/logo.ico',
+  footerIcon: 'img/logo.ico',
+  favicon: 'img/logo.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#070644',
+    primaryColor: '#abb7c9',
     secondaryColor: '#04042f'
   },
 
@@ -107,6 +107,6 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
-}
+};
 
-module.exports = siteConfig
+module.exports = siteConfig;

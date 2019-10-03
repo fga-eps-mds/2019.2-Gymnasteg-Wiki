@@ -1,5 +1,18 @@
 {
   "docs": {
-    "Sprints": ["planningSprint0", "resultSprint0"]
+    "Projeto": ["docVisao", "eap", "tap"],
+    "Gerenciamento do Projeto": ["gerenciamentoRisco", "metodologia", "backlog"],
+    "Sprints": [
+      "planningSprint0",
+      "resultSprint0",
+      "planningSprint1",
+      "resultSprint1",
+      "planningSprint2",
+      "resultSprint2",
+      "planningSprint3",
+      "resultSprint3",
+      "planningSprint4",
+      "resultSprint4"
+    ]
   }
 }

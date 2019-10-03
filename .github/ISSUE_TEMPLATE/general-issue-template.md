@@ -4,42 +4,47 @@ about: General Issue Template
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
-## Issue Title
+<!--O header acima deve ser apagado -->
 
-Describe the problem briefly, be objective in describing the issue.
-A pattern to follow in the issue title is: [VERB] + [SUBSTANTIVE] Example:
-Keep Student
-Fix front end bug
+<!-- Apagar o tópico "Título da issue" abaixo -->
 
-## Description
+## Título da Issue
 
-In the description of the issue you should better specify how the issue can be resolved or what problems are encountered and why the issue was created.
+Descreva a issue brevemente, seja objetivo ao descrever o problema.
+Um padrão a seguir no título da issue é: [VERBO] + [SUBSTANTIVE] Exemplo:
+Manter aluno
+Corrigir bug do front end
 
-## Tasks
+## Descrição
 
-In this part you should checklist the Acceptance criteria that are required to resolve the issue.
+Na descrição da issue, você deve especificar melhor como o problema pode ser resolvido ou quais problemas são encontrados e por que o problema foi criado.
+
+## Tarefas
+
+Nesta parte, você deve listar os critérios de aceitação necessários para resolver a issue.
 Ex:
 
-- [ ] Create Login Fields
-- [ ] Save user data
+- [ ] Criar campo do Login
+- [ ] Salvar dados do Usuário
 
-## Other topics:
+## Outros Tópicos:
 
-### How to reproduce the bug
+### Como Reporduzir o bug
 
-### Screenshot when needed
+### Screenshot quando necessário
 
-### Include Labels
+<!-- Os tópicos abaixo sçao apenas recomendações, então eles podem ser pagados também -->
+
+### Incluir Labels
 
 ## Atualizando/Acompanhamento
 
-In each commit or document incremented to an issue, this issue must be notified to facilitate development traceability. For commits see Commit Policy, for documents use the comment body of the issue.<br/>
+Em cada commit ou documento incrementado para uma issue, essa issue deve ser notificado para facilitar a rastreabilidade do desenvolvimento. Para commits, consulte Política de Commits, para documentos, use o corpo de comentários da questão.<br/>
 
-**In the comments of the issues, good topics are:**
+**Nos comentários das questões, bons tópicos são:**
 
-- discussions about what is being done,
-- materials (links and references),
-- or related subjects to the question and its resolutionn.
+- discussões sobre o que está sendo feito,
+- materiais (links e referências),
+- ou assuntos relacionados à questão e sua resolução.
