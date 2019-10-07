@@ -121,8 +121,9 @@ class Index extends React.Component {
         <hr />
         <div className="team-grid">
           {
-            teamList.map(item => (
+            teamList.map((item, index) => (
               <TeamItem
+                key={index}
                 src={item.src}
                 name={item.name}
                 role={item.role}
