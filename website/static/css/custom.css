@@ -1,6 +1,54 @@
-/* your custom css */
+.homeSplashFade {
+  background-image: linear-gradient(to right, #ffeba9 0%, #FFF 50%,  #ffeba9 100%);
+}
+
+.homeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.splash-logo {
+  height: 250px;
+}
+
+.projectTitle {
+  color: #f6be70;
+}
+
+.features-container {
+  display: grid;
+  grid-gap: 20px;
+  padding: 40px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.feature-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.feature-img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  font-size: 24px;
+  font-weight: bold;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+  .features-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
