@@ -32,7 +32,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0 30px;
+  padding: 100px 50px;
 }
 
 .feature-img {
@@ -71,7 +71,7 @@
 .team-holder {
   padding: 40px;
   text-align: center;
-  background-color: #ececec;
+  background-image: linear-gradient(to top, #FFF 0%, #f0f0f0 100%);
 }
 
 .team-section-title {
