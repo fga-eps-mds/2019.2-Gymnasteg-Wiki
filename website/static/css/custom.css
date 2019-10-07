@@ -45,6 +45,47 @@
   font-weight: bold;
 }
 
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid orange;
+  margin-bottom: 14px;
+}
+
+.team-name {
+  font-weight: bold;
+}
+
+.team-role {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.team-holder {
+  padding: 40px;
+  text-align: center;
+  background-color: #ececec;
+}
+
+.team-section-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.team-grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
   .features-container {
     grid-template-columns: 1fr;

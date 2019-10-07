@@ -55,64 +55,6 @@ class Index extends React.Component {
     const { config: siteConfig, language = '' } = this.props;
     const { baseUrl } = siteConfig;
 
-    const Block = props => (
-      <Container
-        padding={['bottom', 'top']}
-        id={props.id}
-        background={props.background}
-      >
-        <GridBlock
-          align="center"
-          contents={props.children}
-          layout={props.layout}
-        />
-      </Container>
-    );
-
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations'
-          }
-        ]}
-      </Block>
-    );
-
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
-            title: 'Description'
-          }
-        ]}
-      </Block>
-    );
-
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors'
-          }
-        ]}
-      </Block>
-    );
-
     const FeatureItem = (props) => (
       <div className="feature-block">
         <img
@@ -144,44 +86,59 @@ class Index extends React.Component {
       </div>
     );
 
-    const Showcase = () => {
-      if ((siteConfig.users || []).length === 0) {
-        return null;
-      }
+    const TeamItem = (props) => (
+      <div className="team-container">
+        <img
+          src={props.src}
+          className="team-img"
+        />
+        <span className="team-name">
+          {props.name}
+        </span>
+        <span className="team-role">
+          {props.role}
+        </span>
+      </div>
+    );
 
-      const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
-        ));
+    const teamList = [
+      { src: 'https://avatars3.githubusercontent.com/u/22936236?s=400&v=4', name: 'Igor Veloso', role: 'EPS' },
+      { src: 'https://avatars0.githubusercontent.com/u/18502121?s=400&v=4', name: 'Byron Kamal', role: 'EPS' },
+      { src: 'https://avatars1.githubusercontent.com/u/37158351?s=400&v=4', name: 'João Victor', role: 'EPS' },
+      { src: 'https://avatars0.githubusercontent.com/u/44177946?s=400&v=4', name: 'Luiz Pettengill', role: 'MDS' },
+      { src: 'https://avatars1.githubusercontent.com/u/43193827?s=460&v=4', name: 'Fabrício Monteiro', role: 'MDS' },
+      { src: 'https://avatars2.githubusercontent.com/u/23579166?s=460&v=4', name: 'Felipe Agustini', role: 'MDS' },
+      { src: 'https://avatars0.githubusercontent.com/u/35638067?s=400&v=4', name: 'Alan Marques', role: 'MDS' },
+      { src: 'https://avatars0.githubusercontent.com/u/5050667?s=400&v=4', name: 'Matheus Felizola', role: 'MDS' },
+      { src: 'https://avatars0.githubusercontent.com/u/46676030?s=400&v=4', name: 'Fellipe Araújo', role: 'MDS' },
+    ];
 
-      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
-
-      return (
-        <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
-          <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
-            </a>
-          </div>
+    const TeamContainer = () => (
+      <div className="team-holder">
+        <span className="team-section-title">
+          O Time
+        </span>
+        <hr />
+        <div className="team-grid">
+          {
+            teamList.map(item => (
+              <TeamItem
+                src={item.src}
+                name={item.name}
+                role={item.role}
+              />
+            ))
+          }
         </div>
-      );
-    };
+      </div>
+    );
 
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+          <TeamContainer />
         </div>
       </div>
     );
