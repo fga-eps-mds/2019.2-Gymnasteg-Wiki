@@ -1,7 +1,7 @@
 {
   "docs": {
-    "Projeto": ["docVisao", "docArquitetura", "eap", "tap"],
-    "Gerenciamento do Projeto": ["gerenciamentoRisco", "metodologia", "backlog"],
+    "Projeto": ["docVisao", "eap", "tap"],
+    "Gerenciamento do Projeto": ["gerenciamentoRisco", "metodologia", "canvas", "backlog"],
     "Sprints": [
       "planningSprint0",
       "resultSprint0",
