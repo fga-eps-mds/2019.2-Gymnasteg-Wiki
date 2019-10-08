@@ -1,9 +1,3 @@
----
-id: comunicacao
-title: Plano de Comunicação
-sidebar_label: Plano de Comunicação
----
-
 # Plano de comunicação
 
 ## Introdução 
