@@ -3,10 +3,11 @@
     "Projeto": ["docVisao", "docArquitetura", "eap", "tap", "devops", "roadmapProjeto", "papeis"],
     "Produto": [
       "canvas",
-      "backlog"
+      "backlog",
+      "prototipo"
     ],
     "Gerenciamento do Projeto": [
-      "gerenciamentoRisco",
+      "gerencimentoRiscos",
       "metodologia",
       "comunicacao",
       "plano_gcs"
