@@ -102,15 +102,15 @@ class Index extends React.Component {
     );
 
     const teamList = [
-      { src: 'https://avatars3.githubusercontent.com/u/22936236?s=400&v=4', name: 'Igor Veloso', role: 'EPS' },
-      { src: 'https://avatars0.githubusercontent.com/u/18502121?s=400&v=4', name: 'Byron Kamal', role: 'EPS' },
-      { src: 'https://avatars1.githubusercontent.com/u/37158351?s=400&v=4', name: 'João Victor', role: 'EPS' },
-      { src: 'https://avatars0.githubusercontent.com/u/44177946?s=400&v=4', name: 'Luiz Pettengill', role: 'MDS' },
-      { src: 'https://avatars1.githubusercontent.com/u/43193827?s=460&v=4', name: 'Fabrício Monteiro', role: 'MDS' },
-      { src: 'https://avatars2.githubusercontent.com/u/23579166?s=460&v=4', name: 'Felipe Agustini', role: 'MDS' },
-      { src: 'https://avatars0.githubusercontent.com/u/35638067?s=400&v=4', name: 'Alan Marques', role: 'MDS' },
-      { src: 'https://avatars0.githubusercontent.com/u/5050667?s=400&v=4', name: 'Matheus Felizola', role: 'MDS' },
-      { src: 'https://avatars0.githubusercontent.com/u/46676030?s=400&v=4', name: 'Fellipe Araújo', role: 'MDS' },
+      { src: 'https://avatars3.githubusercontent.com/u/22936236?s=400&v=4', name: 'Igor Veloso', role: 'EPS - Scrum Master' },
+      { src: 'https://avatars0.githubusercontent.com/u/18502121?s=400&v=4', name: 'Byron Kamal', role: 'EPS - DevOps' },
+      { src: 'https://avatars1.githubusercontent.com/u/37158351?s=400&v=4', name: 'João Victor', role: 'EPS - Product Owner' },
+      { src: 'https://avatars0.githubusercontent.com/u/44177946?s=400&v=4', name: 'Luiz Pettengill', role: 'MDS - Desenvolvimento' },
+      { src: 'https://avatars1.githubusercontent.com/u/43193827?s=460&v=4', name: 'Fabrício Monteiro', role: 'MDS - Desenvolvimento' },
+      { src: 'https://avatars2.githubusercontent.com/u/23579166?s=460&v=4', name: 'Felipe Agustini', role: 'MDS - Desenvolvimento' },
+      { src: 'https://avatars0.githubusercontent.com/u/35638067?s=400&v=4', name: 'Alan Marques', role: 'MDS - Desenvolvimento' },
+      { src: 'https://avatars0.githubusercontent.com/u/5050667?s=400&v=4', name: 'Matheus Felizola', role: 'MDS - Desenvolvimento' },
+      { src: 'https://avatars0.githubusercontent.com/u/46676030?s=400&v=4', name: 'Fellipe Araújo', role: 'MDS - Desenvolvimento' },
     ];
 
     const TeamContainer = () => (
