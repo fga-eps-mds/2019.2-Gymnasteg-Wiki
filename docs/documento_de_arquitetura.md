@@ -20,6 +20,7 @@ sidebar_label: Documento de Arquitetura
 | 01/10/2019 |  0.10  |       Atualização do Diagrama de Classes e Diagrama Lógico        | Fellipe Araujo e Alan Marques |
 | 20/09/2019 |  0.11  |     Atualização de informações na Representação Arquitetural      | Alan Marques, Fellipe Araujo  |
 | 07/10/2019 |  0.12  |                Atualização da Visão de Caso de Uso                |        Fellipe Araujo         |
+| 08/10/2019 |  0.13  |        Atualização do Diagrama e Descrição de Caso de Uso         |        Fellipe Araujo         |
 
 # 1. Introdução
 
@@ -111,26 +112,25 @@ Sequelize é ORM baseado em promises para Node.js, que suporta vários dialetos,
 
 ## 4.1 Diagrama de Casos de Uso
 
-![Diagrama](assets/doc_arquitetura/caso_de_uso.png)
+![Diagrama](assets/doc_arquitetura/casoDeUso.png)
 
 ## 4.2 Descrições de Casos de Uso
 
-| Casos de uso                      | Ator        | Descrição                                                                                                                                     |
-| --------------------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| UC01-Listar modalidades           | Coordenador | Este caso de uso ocorre sempre que o coordenador loga no Gymnasteg                                                                            |
-| UC02-Inserir dados                | Coordenador | Este caso de uso ocorrerá somente se o coordenador clicar em uma das modalidades                                                              |
-| UC03-Carregar planilha de dados   | Coordenador | Este caso de uso poderá ocorrer caso o coordenador preferir usar planilhas                                                                    |
-| UC04-Criar Bancas                 | Coordenador | Esta caso de uso ocorrerá somente se o coordenador inserir todos os dados necessários                                                         |
-| UC05-Editar banca                 | Coordenador | Este caso de uso ocorrerá somente se o coordenador tiver criado uma banca previamente                                                         |
-| UC06-Visualizar Ranking           | Coordenador | Este caso de uso ocorrerá quando as votações forem submetidas                                                                                 |
-| UC07-Listar bancas do Juiz        | Juiz        | Este caso de uso ocorrerá somente se uma banca que o Juiz estiver for criada pelo coordenador                                                 |
-| UC07-Acessar banca                | Juiz        | Este caso de uso ocorrerá quando o juiz clicar em uma banca                                                                                   |
-| UC08-Listar competidores          | Juiz        | Este caso de uso ocorrerá somente se o Juiz entrar na banca atual para votação                                                                |
-| UC09-Mudar ordem dos competidores | Juiz        | Este caso de uso poderá ocorrer quando o Juiz quiser mudar a ordem de apresentação de um competidor                                           |
-| UC010-Liberar votação             | Juiz        | Este caso de uso poderá ocorrer quando o Juiz escolher um competidor                                                                          |
-| UC011-Votar execução              | Juiz        | Este caso de uso poderá ocorrer quando todos os Juizes liberarem a votação e se o Juiz tiver autorização para votar execução e/ou dificuldade |
-| UC012-Votar dificuldade           | Juiz        | Este caso de uso poderá ocorrer quando todos os Juizes liberarem a votação e se o Juiz tiver autorização para votar dificuldade e/ou execução |
-| UC013-Votar                       | Juiz        | Este caso de uso ocorrerá quando o Juiz entrar com a potuação correta do seu tipo de avaliação                                                |
+| Casos de uso                    | Ator        | Descrição                                                                                                                                     |
+| ------------------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| UC01-Listar bancas              | Coordenador | Este caso de uso ocorre sempre que o coordenador loga no Gymnasteg                                                                            |
+| UC02-Inserir dados              | Coordenador | Este caso de uso ocorrerá somente se o coordenador clicar em uma das modalidades                                                              |
+| UC03-Carregar planilha de dados | Coordenador | Este caso de uso poderá ocorrer caso o coordenador preferir usar planilhas                                                                    |
+| UC04-Criar Bancas               | Coordenador | Esta caso de uso ocorrerá somente se o coordenador inserir todos os dados necessários                                                         |
+| UC05-Editar banca               | Coordenador | Este caso de uso ocorrerá somente se o coordenador tiver criado uma banca previamente                                                         |
+| UC06-Visualizar Ranking         | Coordenador | Este caso de uso ocorrerá quando as votações forem submetidas                                                                                 |
+| UC07-Listar bancas do Juiz      | Juiz        | Este caso de uso ocorrerá somente se uma banca que o Juiz estiver for criada pelo coordenador                                                 |
+| UC07-Acessar banca              | Juiz        | Este caso de uso ocorrerá quando o juiz clicar em uma banca                                                                                   |
+| UC08-Listar competidores        | Juiz        | Este caso de uso ocorrerá somente se o Juiz entrar na banca atual para votação                                                                |
+| UC09-Liberar votação            | Juiz        | Este caso de uso poderá ocorrer quando o Juiz escolher um competidor                                                                          |
+| UC010-Votar execução            | Juiz        | Este caso de uso poderá ocorrer quando todos os Juizes liberarem a votação e se o Juiz tiver autorização para votar execução e/ou dificuldade |
+| UC011-Votar dificuldade         | Juiz        | Este caso de uso poderá ocorrer quando todos os Juizes liberarem a votação e se o Juiz tiver autorização para votar dificuldade e/ou execução |
+| UC012-Votar                     | Juiz        | Este caso de uso ocorrerá quando o Juiz entrar com a potuação correta do seu tipo de avaliação                                                |
 
 # 5. Visão Lógica
 
