@@ -57,8 +57,6 @@ sidebar_label: Result Sprint 4
 ### Velocity:
 ![Velocity](./assets/velocity/velocity_sprint4.png)
 
-### Métricas:
-Não se aplica.
 
 ### Quadro de Conhecimento:
 [![Quadro de conhecimento sprint1](./assets/quadro_conhecimento/quadro_conhecimento_sprint4.png)](./assets/quadro_conhecimento/quadro_conhecimento_sprint4.png)

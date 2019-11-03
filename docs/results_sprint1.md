@@ -46,9 +46,6 @@ Não se aplica.
 
 Não se aplica.
 
-### Métricas:
-
-Não se aplica.
 
 ### Quadro de Conhecimento:
 
