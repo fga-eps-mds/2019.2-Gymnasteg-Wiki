@@ -57,7 +57,19 @@ sidebar_label: Result Sprint 5
 ![Velocity](./assets/velocity/velocity_sprint5.png)
 
 ### Métricas:
-Não se aplica.
+#### FrontEnd
+|Métrica|Resultado|Aceitável?|
+|----|----|----|
+|MAINTAINABILITY|C|:x:|
+|BUILD|PASSING|:heavy_check_mark:|
+|TESTS COVERAGE|32,5%|:x:|
+
+#### BackEnd
+|Métrica|Resultado|Aceitável?|
+|----|----|----|
+|MAINTAINABILITY|C|:x:|
+|BUILD|PASSING|:heavy_check_mark:|
+|TESTS COVERAGE|?|:x:|
 
 ### Quadro de Conhecimento:
 [![Quadro Conhecimento Gymnasteg](./assets/quadro_conhecimento/quadro_conhecimento_sprint5.png)](./assets/quadro_conhecimento/quadro_conhecimento_sprint5.png)

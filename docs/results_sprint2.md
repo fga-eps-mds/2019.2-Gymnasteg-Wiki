@@ -58,12 +58,8 @@ Não se aplica.
 [![Burndown](./assets/burndown/burndown_sprint1.png)]((../../assets/burndown/burndown_sprint1.png)
 
 ### Velocity:
-
 Não se aplica.
 
-### Métricas:
-
-Não se aplica.
 
 ### Quadro de Conhecimento:
 

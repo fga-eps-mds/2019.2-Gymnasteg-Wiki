@@ -59,7 +59,19 @@ Não se aplica.
 ![Velocity](./assets/velocity/velocity_sprint7.png)
 
 ### Métricas:
-Não se aplica.
+#### FrontEnd
+|Métrica|Resultado|Aceitável?|
+|----|----|----|
+|MAINTAINABILITY|C|:x:|
+|BUILD|PASSING|:heavy_check_mark:|
+|TESTS COVERAGE|32,5%|:x:|
+
+#### BackEnd
+|Métrica|Resultado|Aceitável?|
+|----|----|----|
+|MAINTAINABILITY|C|:x:|
+|BUILD|PASSING|:heavy_check_mark:|
+|TESTS COVERAGE|?|:x:|
 
 ### Quadro de Conhecimento:
 [![Quadro Conhecimento Gymnasteg](./assets/quadro_conhecimento/quadro_resumo_sprint7.png)](./assets/quadro_conhecimento/quadro_resumo_sprint7.png)

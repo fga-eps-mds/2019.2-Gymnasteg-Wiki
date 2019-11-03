@@ -57,8 +57,6 @@ Não de aplica
 ### Velocity:
 ![Velocity](./assets/velocity/velocity_sprint3.png)
 
-### Métricas:
-Não se aplica.
 
 ### Quadro de Conhecimento:
 [![Quadro de conhecimento sprint1](./assets/quadro_conhecimento/quadro_conhecimento_sprint2.png)](../../assets/quadro_conhecimento/quadro_conhecimento_sprint2.png)
