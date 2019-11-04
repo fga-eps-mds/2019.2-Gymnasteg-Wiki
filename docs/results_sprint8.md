@@ -63,7 +63,7 @@ Não se aplica.
 |----|----|----|
 |MAINTAINABILITY|C|:x:|
 |BUILD|PASSING|:heavy_check_mark:|
-|TESTS COVERAGE|92,16%|:heavy_check_mark:|
+|TESTS COVERAGE|70,16%|:heavy_check_mark:|
 
 ### Análise do Scrum Master:
 Essa sprint, e equipe de EPS ficou responsável por reintegrar um dos membros do time de desenvolvimento ao projeto. Esse membro ficou ausente por vários dias devido a uma viagem e falecimento de um dos seus familiares. O membro em questão estava pensando em desistir do semestre, mas a equipe de EPS conseguiu com que ele permanecesse no projeto. Para isso foi preciso um estudo para ver onde encaixar o membro para que ele e o restante do grupo não fossem prejudicados. Essa sprint serviu de readaptação desse membro com o projeto, em termos de ritmo e conhecimento, por isso para essa sprint não foram estipulados entregas das features.
