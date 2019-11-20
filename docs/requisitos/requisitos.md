@@ -1,3 +1,9 @@
+|    Data    | Versão |   Descrição    |           Autor           |
+| :--------: | :----: | :------------: | :-----------------------: |
+| 30/09/2019 |  0.1   | Versão inicial |João Victor |
+| 8/11/2019 |  0.2   | incluindo modelo istar |João Victor |
+
+
 # Elicitação
 ## Técnica de Elicitação
 
@@ -53,3 +59,10 @@ Would = Menor prioridade
 |R09|O usuário deve ser capaz de realizar a editação de um perfil|Could|
 |R010|O usuário deve ser capaz de realizar a votação|Must|
 |R011|O usuário deve ser capaz de visualizar o ranking|Should|
+
+
+## iStar
+O i* Framework é uma linguagem de modelagem que permite modelar situações atuais ou futuras. Foi originalmente desenvolvida para modelagem e raciocínio sobre ambientes organizacionais e seus sistemas de informação, que dependem uns dos outros para realizar suas tarefas e atingir esses objetivos.
+
+### iStar de usuário
+![](https://i.imgur.com/Ps8yUZ4.png)
