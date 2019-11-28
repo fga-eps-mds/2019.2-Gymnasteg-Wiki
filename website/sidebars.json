@@ -1,18 +1,23 @@
 {
   "docs": {
-    "Projeto": ["docVisao", "docArquitetura", "eap", "tap", "devops", "roadmapProjeto", "papeis"],
+    "Projeto": ["docVisao", "docArquitetura", "eap", "tap", "devops", "roadmapProjeto", "papeis", "evm"],
     "Produto": [
       "canvas",
       "backlog",
       "prototipo",
       "especifica",
       "requisitos"
+      "teste_usabilidade",
+      "resultado_usabilidade"
     ],
     "Gerenciamento do Projeto": [
       "gerencimentoRiscos",
       "metodologia",
       "comunicacao",
-      "plano_gcs"
+      "plano_gcs",
+      "documentoCustos",
+      "comunicacao",
+      "postemortem"
     ],
     "Sprints": [
       "planningSprint0",
@@ -42,7 +47,9 @@
       "planningSprint12",
       "resultSprint12",
       "planningSprint13",
-      "resultSprint13"
+      "resultSprint13",
+      "planningSprint14",
+      "resultSprint14"
     ]
   }
 }

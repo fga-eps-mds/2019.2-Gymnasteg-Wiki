@@ -1,3 +1,9 @@
+---
+id: documentoCustos
+title: Documento de Custos
+sidebar_label: Documento de Custos
+---
+
 |Data|Versão|Descrição|Autor|
 |----|------|---------|-----|
 |19/09/2019|1.0.0|Criação do documento|João Victor|
@@ -10,11 +16,11 @@
 6. [Custo Total Estimado]()
 7. [Referências]()
 
-## 1. Introdução	
-Este documento trata-se de um processo que tem o propósito de aproximar os recursos financeiros disponíveis às atividades que serão executadas no projeto. O uso dos recursos obedece a um planejamento prévio onde cada atividade será programada para ocorrer em um determinado tempo, com os recursos financeiros devendo estar disponíveis naquele momento. 
+## 1. Introdução
+Este documento trata-se de um processo que tem o propósito de aproximar os recursos financeiros disponíveis às atividades que serão executadas no projeto. O uso dos recursos obedece a um planejamento prévio onde cada atividade será programada para ocorrer em um determinado tempo, com os recursos financeiros devendo estar disponíveis naquele momento.
 
 
- 
+
 ## 2. Custo de Pessoal
 
 |Função|Quantidade|Horas de Trabalho|Valor mensal|Valor Total|

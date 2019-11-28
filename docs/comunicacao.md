@@ -1,9 +1,15 @@
+---
+id: comunicacao
+title: Plano de Comunicação
+sidebar_label: Plano de Comunicação
+---
+
 # Plano de comunicação
 
-## Introdução 
+## Introdução
 Este documento visa detalhar a estratégia de comunicação utilizada durante o decorrer do projeto.
 
-## Ferramentas 
+## Ferramentas
 Ferrmantas utilizadas para a comunicação entre membro e utilizadas nos processos de criação do projeto.
 
 |Ferramenta|Descrição|
@@ -14,7 +20,7 @@ Ferrmantas utilizadas para a comunicação entre membro e utilizadas nos process
 |Draw io|Ferramenta utilizada para para fazer fluxogramas, diagramas de processo e etc|
 |Github|Plataforma utilizada para hospedagem de código-fonte|
 
-# Comunicação 
+# Comunicação
 
 ## Comunicação da equipe
 

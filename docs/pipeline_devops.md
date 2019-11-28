@@ -25,8 +25,15 @@ A ferramenta utilizada para a execução dessa etapa é o Travis CI. Nessa parte
 Após o build uma imagem Docker é enviada para o Docker Hub. Depois, é aberto um PR para a branch pertinente de acordo com o ambiente (Homologação ou Produção) em que pretende-se fazer o deploy e, logo após. é feito a analise manual do PR.
 
 ### Deploy
-#### Heroku
-Após construida a imagem e essa ser enviada para o Docker Hub, alguns comandos são executados no Travis CI e a imagem docker, já dísponivel no Docker Hub, é enviada para o Heroku, onde é feito o deploy e a aplicação pode ser acessada.
+
+#### Heroku (Front-end)
+Após construida a imagem essa ser enviada para o Docker Hub, alguns comandos são executados no Travis CI e a imagem docker, já dísponivel no Docker Hub, é enviada para o Heroku, onde é feito o deploy e a aplicação pode ser acessada.
+
+#### Digital Ocean + Rancher (API)
+Após construida a imagem da API essa ser enviada para o Docker Hub, alguns comandos de upgrade de serviço do Rancher são executados no Travis CI e a imagem docker, já dísponivel no Docker Hub,
+é atualizada nos hosts da Digital Ocean.
+
+Obs: Rancher é uma plataforma para gerenciar infraestrutura de Docker, assim como para efetuar deploy de apps usando Docker. O deploy pode ser local ou em servers remotos (Digital Ocean). No caso do Gymnasteg, o deploy das imagens de Produção e Homologação são feitos em severs remotos na Digital Ocean.
 
 ### Pipilene de Devops
 
