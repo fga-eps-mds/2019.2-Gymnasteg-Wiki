@@ -10,7 +10,8 @@
       "gerencimentoRiscos",
       "metodologia",
       "comunicacao",
-      "plano_gcs"
+      "plano_gcs",
+      "postemortem"
     ],
     "Sprints": [
       "planningSprint0",
