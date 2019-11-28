@@ -7,6 +7,8 @@ sidebar_label: TAP
 | Data       | Versão | Descrição            | Autor       |
 | ---------- | ------ | -------------------- | ----------- |
 | 10/09/2019 | 0.1    | Criação do documento | João Victor |
+| 10/11/2019 | 0.2    | Refatoração do documento | João Victor |
+
 
 ## Sumário
 
@@ -81,17 +83,17 @@ O projeto está programado por seguir duas entregas, chamadas de releases. As re
 | Marcos    | Datas |
 | --------- | ----- |
 | Release 1 |       |
-| Release 2 |       |
+| Release 2 |   29/11    |
 
 # 9. Custo Previsto
 
 ## 9.1 Custo de Pessoal
 
-| Função                    | Quantidade | Horas de Trabalho | Valor mensal | Valor Total   |
+| Função                    | Quantidade | Salário/mês (160h) | Salário/hora | Valor Total   |
 | ------------------------- | ---------- | ----------------- | ------------ | ------------- |
-| Equipe Full Stack         | 3          | 10                | R\$ 3.647,25 | R\$ 10.941,00 |
-| Equipe de desenvolvimento | 6          | 10                | R\$ 4.465,20 | R\$ 26.790,00 |
-| Total                     |            |                   |              | R\$ 37.731,00 |
+| Equipe Full Stack         | 3          |        R$ 6.080,00       | R$ 38 | R\$ 18.240,00 |
+| Equipe de desenvolvimento | 6          |        R$ 3.200,00       | R$ 20  | R\$ 19.200,00 |
+| Total                     |            |                   |              | R\$ 37.440,00 |
 
 ## 9.2 Custo de Aquisição
 
@@ -101,7 +103,7 @@ O custo do equipamento do time foi calculado por uma pesquisa dos preços dos mo
 | ------------------- | ---------------------------------------- | -------------------------------------------- | ----------------------- | ----------------- |
 | Notebook            | 9                                        | Desenvolvimento / Gerência                   | R\$ 3.504,03 (média)    | R\$ 31.538,00     |
 | Transporte          | 3 passagens(passe estudantil) / 6 carros | Locomoção da equipe para o local de trabalho | R\$ 2.959,80 (gasolina) | R\$ 2.959,80/ mês |
-| Total               |                                          |                                              |                         | R\$ 34.497,00     |
+
 
 ## 9.3 Custo das Ferramentas
 
@@ -117,10 +119,10 @@ O custo do equipamento do time foi calculado por uma pesquisa dos preços dos mo
 
 | Recurso            | Valor               |
 | ------------------ | ------------------- |
-| Custo de pessoal   | R\$ 37.731,00 / mês |
-| Custo de Aquisição | R\$ 34.497,00 / mês |
+| Custo de pessoal   | R\$ 37.440,00 / mês |
+| Custo de Aquisição |R$ 43.377,00|
 | Ferramentas        | R\$ 0,00 / mês      |
-| Total              | R\$ 66.033,10 / mês |
+| Total              | R\$ 193.137,00 |
 
 # 10. Stakeholders
 
