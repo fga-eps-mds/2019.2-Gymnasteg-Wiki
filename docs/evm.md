@@ -12,7 +12,7 @@ sidebar_label: EVM
 
 Esse documento tem como objetivo definir o desempenho técnico, o custo e o cronograma de um projeto em relação aos objetivos planejados.
 
-# 2.  Análise do Valor Agregado 
+# 2.  Análise do Valor Agregado
 
 O  Análise do Valor Agregado (EVM  Earned Value Management) é uma técnica de gerenciamento de projetos que mede o desempenho técnico, o custo e o cronograma de um projeto em relação aos objetivos planejados. O resultado é um conjunto simples de métricas que fornece alertas precoces de problemas de desempenho, permitindo ajustes oportunos e adequados.
 

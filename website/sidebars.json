@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Projeto": ["docVisao", "docArquitetura", "eap", "tap", "devops", "roadmapProjeto", "papeis"],
+    "Projeto": ["docVisao", "docArquitetura", "eap", "tap", "devops", "roadmapProjeto", "papeis", "evm"],
     "Produto": [
       "canvas",
       "backlog",
@@ -10,7 +10,9 @@
       "gerencimentoRiscos",
       "metodologia",
       "comunicacao",
-      "plano_gcs"
+      "plano_gcs",
+      "documentoCustos",
+      "comunicacao"
     ],
     "Sprints": [
       "planningSprint0",
