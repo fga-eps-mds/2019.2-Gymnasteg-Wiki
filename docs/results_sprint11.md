@@ -33,9 +33,10 @@ sidebar_label: Result Sprint 11
 
 ### Histórias não entregues:
 - [Votação Back-End](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/issues/53)
+- [Criar Documento de Modelagem de Requisitos](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/issues/62)
 
 ### Total de pontos planejados:
-- 24 prontos.
+- 25 prontos.
 
 ### Total de pontos entregues:
 - 11 pontos.

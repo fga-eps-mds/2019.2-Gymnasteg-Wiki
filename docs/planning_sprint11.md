@@ -34,3 +34,4 @@ sidebar_label: Planning Sprint 11
 - [Editar Perfil](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/issues/47)
 - [Criar Tela de Ranking](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/issues/45)
 - [Votação Back-End](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/issues/53)
+- [Criar Documento de Modelagem de Requisitos](https://github.com/fga-eps-mds/2019.2-Gymnasteg-Wiki/issues/62)
