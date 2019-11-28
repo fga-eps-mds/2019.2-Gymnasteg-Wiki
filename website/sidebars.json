@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Projeto": ["docVisao", "docArquitetura", "eap", "tap", "devops", "roadmapProjeto", "papeis", "evm"],
+    "Projeto": ["docVisao", "docArquitetura", "eap", "tap", "devops", "roadmapProjeto", "papeis", "evm","Roi"],
     "Produto": [
       "canvas",
       "backlog",
@@ -15,7 +15,6 @@
       "metodologia",
       "comunicacao",
       "plano_gcs",
-      "documentoCustos",
       "comunicacao",
       "postemortem"
     ],
