@@ -5,7 +5,9 @@
       "canvas",
       "backlog",
       "prototipo",
-      "teste_usabilidade"
+      "especifica",
+      "teste_usabilidade",
+      "resultado_usabilidade"
     ],
     "Gerenciamento do Projeto": [
       "gerencimentoRiscos",
@@ -14,8 +16,7 @@
       "plano_gcs",
       "documentoCustos",
       "comunicacao",
-      "postemortem",
-      "resultado_usabilidade"
+      "postemortem"
     ],
     "Sprints": [
       "planningSprint0",
