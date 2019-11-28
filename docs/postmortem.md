@@ -1,7 +1,7 @@
 ---
 id: postemortem
-title: Postemortem
-sidebar_label: Postemortem
+title: Postmortem
+sidebar_label: Postmortem
 ---
 
 | Data | Versão | Descrição | Autor |
