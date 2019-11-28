@@ -45,9 +45,9 @@ Os resultados serão entregues através de um relatório, que deverá conter as 
 ### Perfil dos participantes
 
 **Participante**
-- Nome: Guilherme Dias
-- Idade: 31
-- Sexo: Masculino
+- Nome: Franciane Rodrigues
+- Idade: 40
+- Sexo: Feminino
 
 Possui algum requisito de acessibilidade para o uso de aplicação?
 - [ ] Sim
