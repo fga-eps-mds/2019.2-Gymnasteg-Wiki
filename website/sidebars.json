@@ -12,7 +12,8 @@
       "comunicacao",
       "plano_gcs",
       "documentoCustos",
-      "comunicacao"
+      "comunicacao",
+      "postemortem"
     ],
     "Sprints": [
       "planningSprint0",
