@@ -10,4 +10,4 @@ sidebar_label: EAP
 
 ## 1. Este documento tem como objetivo de apresentar a estrutura analítica do projeto Gymnasteg. Tal documento tem como função representar o processo em partes menores a mais gerenciáveis.
 
-![Estrutura Analítica do Projeto](./assets/eap/eapv01.jpg)
+![Estrutura Analítica do Projeto](./assets/imagens/eapv01.jpg)
